@@ -1,13 +1,5 @@
 def bubble_sort(numbers):
-  """
-  Fungsi untuk mengurutkan daftar angka menggunakan algoritma bubble sort.
-
-  Args:
-    numbers: Daftar angka yang ingin diurutkan.
-
-  Returns:
-    Daftar angka yang sudah diurutkan.
-  """
+  
   is_sorted = False
   while not is_sorted:
     is_sorted = True
@@ -18,9 +10,8 @@ def bubble_sort(numbers):
 
   return numbers
 
-
 if __name__ == "__main__":
-  # Contoh penggunaan
+  
   data = [5, 2, 4, 1, 3]
   print(f"Daftar sebelum diurutkan: {data}")
 
